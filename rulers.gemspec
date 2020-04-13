@@ -10,14 +10,14 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A Rack-based Web Framework}
   spec.description   = %q{A Rack-based Web Framework, but with extra awesome}
-  spec.homepage      = "https://rubygems.org/gems/rulers"
+  spec.homepage      = "https://github.com/FabienneB/rulers"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = ""
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = ""
-  spec.metadata["changelog_uri"] = ""
+  spec.metadata["source_code_uri"] = "https://github.com/FabienneB/rulers"
+  spec.metadata["changelog_uri"] = "https://example.com/user/bestgemever/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
