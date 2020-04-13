@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rulers (0.1.0)
+    rulers (0.1.4)
       rack
 
 GEM
@@ -9,6 +9,8 @@ GEM
   specs:
     diff-lcs (1.3)
     rack (2.2.2)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rake (10.5.0)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -29,6 +31,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
+  rack-test
   rake (~> 10.0)
   rspec (~> 3.0)
   rulers!
